@@ -1,0 +1,8 @@
+node_modules
+.next
+dist
+.DS_Store
+coverage
+tmp
+.env
+data/app-settings.json

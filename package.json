@@ -1,0 +1,28 @@
+{
+  "name": "oreilly-book-summarizer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "cli": "node --env-file-if-exists=.env --import tsx src/cli.ts",
+    "check": "tsc --noEmit",
+    "test": "node --env-file-if-exists=.env --import tsx --test src/**/*.test.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
