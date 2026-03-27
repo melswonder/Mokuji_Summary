@@ -6,3 +6,11 @@ coverage
 tmp
 .env
 data/app-settings.json
+frontend/node_modules
+frontend/.next
+backend/.venv
+backend/data
+backend/__pycache__
+backend/app/__pycache__
+backend/tests/__pycache__
+**/__pycache__
